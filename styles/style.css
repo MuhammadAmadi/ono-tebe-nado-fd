@@ -5,6 +5,7 @@ body {
   font-weight: 400;
   font-size: max(20px,1.7vw);
   line-height: 1;
+  min-width: 1100px;
 }
 
 h1,
@@ -27,7 +28,8 @@ a {
 
 .header {
   display: grid;
-  grid-template-columns: 1fr minmax(50px, 13.5vw) 1fr;
+  grid-template-columns: 1fr minmax(100px, 13.5vw) 1fr;
+  min-width: 1100px;
   align-items: center;
   padding-top: 5.5vw;
 }
@@ -248,6 +250,7 @@ button {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   margin-top: 16.5vw;
+  min-width: 1100px;
 }
 
 .footer-address-items,
